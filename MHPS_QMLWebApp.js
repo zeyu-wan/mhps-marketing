@@ -13980,8 +13980,13 @@ var _emscripten_stack_get_current = function() {
 var ___cxa_demangle = createExportWrapper("__cxa_demangle");
 /** @type {function(...*):?} */
 var ___cxa_is_pointer_type = createExportWrapper("__cxa_is_pointer_type");
+<<<<<<< HEAD
 var ___start_em_js = Module['___start_em_js'] = 41512372;
 var ___stop_em_js = Module['___stop_em_js'] = 41512854;
+=======
+var ___start_em_js = Module['___start_em_js'] = 41508724;
+var ___stop_em_js = Module['___stop_em_js'] = 41509206;
+>>>>>>> 1ed8b042f7cfafebb0bb6a0c32b77d7e9cea0f2a
 function invoke_iiiii(index,a1,a2,a3,a4) {
   var sp = stackSave();
   try {
